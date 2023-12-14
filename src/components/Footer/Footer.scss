@@ -1,0 +1,79 @@
+ul,.nav {
+    list-style: none;
+    li{
+        transition: 0.3s;
+        font-weight: 600;
+        font-size: 16px;
+        color: #74767e !important;
+        cursor: pointer;
+        &:hover {
+            color: #1dbf37 !important;
+        }
+            a{
+                text-decoration: none;
+                transition: 0.3s;
+                font-weight: 600;
+                font-size: 16px;
+                color: #74767e;
+                cursor: pointer;
+                &:hover {
+                    text-decoration: none;
+                    color: #1dbf37;
+                }
+            }
+            .btn-signin {
+                padding: 5px 15px;
+                background: #1dbf73;
+                border: 1px solid #1dbf37;
+                border-radius: 4px;
+                transition: color 0.5s ease, border 0.5s ease;
+                color: #fff !important;
+                @media screen and (max-width: 1300px) {
+                  text-align: justify !important;
+                }
+                @media screen and (max-width: 992px) {
+                  display: none;
+                }
+                @media only screen and (max-width:768px) {
+                  display: none;
+                }
+                a {
+                  color: white ;
+                  text-decoration: none;
+                }
+                &:hover {
+                  background: #19a463;
+                  color: #fff !important;
+                }
+              }
+            .btn-logout {
+                padding: 5px 15px;
+                background: red;
+                border: 1px solid red;
+                border-radius: 4px;
+                transition: color 0.5s ease, border 0.5s ease;
+                color: #fff !important;
+                @media screen and (max-width: 1300px) {
+                  text-align: justify !important;
+                }
+                @media screen and (max-width: 992px) {
+                  display: none;
+                }
+                @media only screen and (max-width:768px) {
+                  display: none;
+                }
+                a {
+                  color: white ;
+                  text-decoration: none;
+                }
+                &:hover {
+                  background: rgb(127, 30, 30);
+                  color: #fff !important;
+                }
+              }
+    }
+}
+
+h5{
+    color: white !important;
+}
